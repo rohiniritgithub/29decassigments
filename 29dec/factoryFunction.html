@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+	
+	</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function mobile()
+		{
+			return {
+				model:'Galaxy',price:function()
+				{
+					return"Price rs.3000" ;
+			    }
+			       };
+		}
+		var samsung=mobile();
+		var nokia=mobile();
+		document.write(samsung.model+ "" +samsung.price() + "<br>");
+		document.write(nokia.model +"" +nokia.price());
+	</script>
+
+</body>
+</html>
